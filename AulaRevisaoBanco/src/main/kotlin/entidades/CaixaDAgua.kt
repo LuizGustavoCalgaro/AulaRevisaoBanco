@@ -4,12 +4,9 @@ import enumeradores.Material
 
 class CaixaDAgua(
     val material: Material,
-    val capidade: Int,
+    val capacidade: Int,
     val cor: String,
-    val peso: Double,
-    val preco: Double,
     val altura: Double,
-    val profundidade: Double,
     val largura: Double,
     val marca: String,
     //val dimensao : Array<Double>, //Altura, Largura, Profundidade
